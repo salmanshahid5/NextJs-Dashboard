@@ -1,5 +1,9 @@
+import AdminPage from "./(dashboard)/admin/page";
+
 export default function Home() {
   return (
-    <div>Hn bhai kesy ho </div>
+    <div>
+      <AdminPage />
+      </div>
   );
 }
